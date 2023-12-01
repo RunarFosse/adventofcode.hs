@@ -1,12 +1,12 @@
 # Advent of Code 2023
 
-Suboptimal optimal Haskel code.
+Suboptimal optimal Haskell code.
 
 ## Progress
 
 | Day   | Stars |
 | :---: | :---: |
-| [Day 1](./1.hs) | <img src="./star.gif" width="20" style="transform: translateY(5px)"> <img src="./star.gif" width="20" style="transform: translateY(5px)"> |
+| [Day 1](./1.hs) | <img src="./star.gif" width="30"> <img src="./star.gif" width="30"> |
 | Day 2 |  |
 | Day 3 |  |
 | Day 4 |  |
