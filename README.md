@@ -6,8 +6,8 @@ Suboptimal optimal Haskell code.
 
 | Day   | Stars |
 | :---: | :---: |
-| [Day 1](./1.hs) | <img src="./star.gif" width="30"> <img src="./star.gif" width="30"> |
-| Day 2 |  |
+| [Day 1](./Day%201/1.hs) | <img src="./star.gif" width="30"> <img src="./star.gif" width="30"> |
+| [Day 2](./Day%202/2.hs) | <img src="./star.gif" width="30"> <img src="./star.gif" width="30">  |
 | Day 3 |  |
 | Day 4 |  |
 | Day 5 |  |
