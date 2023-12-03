@@ -55,7 +55,7 @@ colorPower (Red reds, Green greens, Blue blues) = reds * greens * blues
 
 main :: IO()
 main = do
-    file <- readFile "2.txt"
+    file <- readFile "Day 2/2.txt"
     let ls = lines file
         games = map parseGame ls
         colorCounts = map (sumColorCounts 0 0 0) $ map (foldr (++) []) (map snd games)
