@@ -45,6 +45,6 @@ sumRealCalibrations (string:strings) = extractRealCalibration string + sumRealCa
 
 main :: IO()
 main = do
-    file <- readFile "1.txt"
+    file <- readFile "Day 1/1.txt"
     putStrLn $ show $ sumCalibrations $ lines file
     putStrLn $ show $ sumRealCalibrations $ lines file
