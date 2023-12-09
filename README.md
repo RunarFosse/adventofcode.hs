@@ -14,7 +14,7 @@ Suboptimal optimal Haskell code.
 | [Day 6](./Day%206/6.hs) | <img src="./star.gif" width="30"> <img src="./star.gif" width="30"> |
 | [Day 7](./Day%207/7.hs) | <img src="./star.gif" width="30"> <img src="./star.gif" width="30"> |
 | [Day 8](./Day%208/8.hs) | <img src="./star.gif" width="30"> <img src="./star.gif" width="30"> |
-| Day 9 |  |
+| [Day 9](./Day%209/9.hs) | <img src="./star.gif" width="30"> <img src="./star.gif" width="30"> |
 | Day 10 |  |
 | Day 11 |  |
 | Day 12 |  |
