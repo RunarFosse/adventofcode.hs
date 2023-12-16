@@ -21,7 +21,7 @@ Suboptimal optimal Haskell code.
 | [Day 13](./Day%2013/13.hs) | <img src="./star.gif" width="30"> <img src="./star.gif" width="30"> |
 | [Day 14](./Day%2014/14.hs) | <img src="./star.gif" width="30"> <img src="./star.gif" width="30"> |
 | [Day 15](./Day%2015/15.hs) | <img src="./star.gif" width="30"> <img src="./star.gif" width="30"> |
-| Day 16 |  |
+| [Day 16](./Day%2016/16.hs) | <img src="./star.gif" width="30"> <img src="./star.gif" width="30"> |
 | Day 17 |  |
 | Day 18 |  |
 | Day 19 |  |
