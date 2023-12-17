@@ -79,4 +79,5 @@ main = do
         let lossMap = createLossMap $ lines file
             shortestPath = findShortestPath lossMap (fromList [(0, (0, 0), Right, 0)]) S.empty
             ultraShortestPath = findUltraShortestPath lossMap (fromList [(0, (0, 0), Right, 0), (0, (0, 0), Down, 0)]) S.empty
+        putStrLn $ show shortestPath
         putStrLn $ show ultraShortestPath
