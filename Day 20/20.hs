@@ -84,8 +84,8 @@ main = do
             pulses = pushButton modules 1000
             conjunctionControllingRx = (head . M.keys . M.filter (\module' -> any (=="rx") $ getConnected module')) modules
             conjunctionsControllingConjunctionControllingRx = (M.keys . M.filter (\module' -> any (==conjunctionControllingRx) $ getConnected module')) modules
-            conjunctionsControllingConjunctionControllingConjunctionControllingRx = concat $ map (\indirectlyControllingRx -> (M.keys . M.filter (\module' -> any (==indirectlyControllingRx) $ getConnected module')) modules) conjunctionsControllingConjunctionControllingRx
-            conjunctionPeriods = map (sum . M.elems . calculatePeriodOfConjunctionsMemory modules) conjunctionsControllingConjunctionControllingConjunctionControllingRx
+            conjunctionsControllingConjunctionsControllingConjunctionControllingRx = concat $ map (\indirectlyControllingRx -> (M.keys . M.filter (\module' -> any (==indirectlyControllingRx) $ getConnected module')) modules) conjunctionsControllingConjunctionControllingRx
+            conjunctionPeriods = map (sum . M.elems . calculatePeriodOfConjunctionsMemory modules) conjunctionsControllingConjunctionsControllingConjunctionControllingRx
             totalButtonPressesForSandMachineToReceiveLowPulse = foldl lcm 1 conjunctionPeriods
         putStrLn $ show (fst pulses * snd pulses)
         putStrLn $ show totalButtonPressesForSandMachineToReceiveLowPulse
