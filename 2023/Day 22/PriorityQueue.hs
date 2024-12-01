@@ -3,7 +3,7 @@ module PriorityQueue where
 -- Haskell PriorityQueue implementation
 -- https://adinapoli.github.io/alfredodinapoli.com/posts/2017-04-07-the-simplest-possible-haskell-heap-implementation.html
 
-import Data.List hiding (insert)
+import Data.List hiding (singleton, insert)
 
 type Rank = Int
 
