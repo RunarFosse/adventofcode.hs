@@ -45,7 +45,6 @@ main = do
         file <- readFile "Day 9/9.txt"
         let diskMap = parseDiskMap file
             compactDisk = createCompactDisk diskMap (reverse diskMap)
-            wholeFileCompactDisk = createWholeFileCompactDiskMap diskMap (reverse diskMap)
+            wholeFileCompactDisk = diskMapToCompactDisk $ createWholeFileCompactDiskMap diskMap (reverse diskMap)
         putStrLn $ show $ computeChecksum compactDisk
-        putStrLn $ show $ computeChecksum $ diskMapToCompactDisk wholeFileCompactDisk
-
+        putStrLn $ show $ computeChecksum wholeFileCompactDisk
