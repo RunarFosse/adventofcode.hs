@@ -53,5 +53,7 @@ main = do
         let robots = parseRobots file
             bounds = calculateBounds robots
             robotsAfter100 = moveRobots robots bounds 100
-        putStrLn $ show $ computeSafetyFactor robotsAfter100 bounds
-        putStrLn $ show $ findMostClusteredSecondAfter robots bounds 10000
+            safetyFactorAfter100 = computeSafetyFactor robotsAfter100 bounds
+            easterEggSecond = findMostClusteredSecondAfter robots bounds 10000
+        putStrLn $ show safetyFactorAfter100
+        putStrLn $ show easterEggSecond
