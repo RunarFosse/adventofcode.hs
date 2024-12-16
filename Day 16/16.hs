@@ -2,7 +2,7 @@ import Data.Array
 import qualified Data.Set as S
 import qualified Data.Map as M
 
-data PriorityQueue a = Empty | PriorityQueue a [(PriorityQueue a)] deriving Show
+data PriorityQueue a = Empty | PriorityQueue a [PriorityQueue a] deriving Show
 
 merge :: Ord a => PriorityQueue a -> PriorityQueue a -> PriorityQueue a
 merge Empty pq = pq
