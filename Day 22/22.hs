@@ -1,5 +1,4 @@
 import Data.Bits
-import Data.Maybe
 import qualified Data.Set as S
 import qualified Data.Map as M
 
